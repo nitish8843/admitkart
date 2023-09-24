@@ -1,0 +1,57 @@
+.success{
+    width: 100%;
+    height: 100vh;
+}
+.success .img{
+    width: 80%;
+    margin: 0 auto;
+}
+.success .img img{
+    width: 100%;
+}    
+
+.success .details{
+    width: 80%;
+    margin: 0 auto;
+}
+.success .details .one{
+    width: 80%;
+    margin: 0 auto;
+    color:#999999;
+    text-align: center;
+    margin-bottom: 0;
+}
+.success .actions{
+    width: 80%;
+    margin: 7rem auto;
+    text-align: center;
+}
+.success .actions button{
+    background-color: #f7b348;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.success .actions h5{
+    margin-top: 5px;
+    color: #999999;
+}
+
+@media only screen and (min-width:768px){
+    .success{
+        width:80%;
+        margin:0 auto;
+        text-align: center;
+    }   
+}
+@media only screen and (min-width:1024px){
+    .success{
+        width:60%;
+        margin:0 auto;
+    }   
+}

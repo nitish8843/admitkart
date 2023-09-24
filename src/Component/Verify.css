@@ -1,0 +1,53 @@
+.verify{
+    width:100%;
+    height: 100vh;
+}
+.verify .img{
+    width: 50%;
+    margin: 3rem auto;
+    /* margin-bottom: 3rem; */
+}
+.verify .img img{
+    width: 100%;
+}
+
+.verify .content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.verify .panel{
+    width: 20%;
+    margin: 0 auto;
+}
+.verify .verify-actions{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.verify .verify-actions .verify-button{
+    width: 70%;
+    background-color: #f7b348;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media only screen and (min-width:768px){
+    .verify{
+        width:80%;
+        margin:0 auto;
+    }   
+}
+@media only screen and (min-width:768px){
+    .verify{
+        width:60%;
+        margin:0 auto;
+    }   
+}

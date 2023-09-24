@@ -1,0 +1,73 @@
+.login{
+  width: 100%;
+  height: 100vh;
+}
+.login .login-img{
+  width: 80%;
+  margin: 5rem auto;
+}
+.login .login-img img{
+  width: 100%;
+}
+
+.login .welcome{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.login .number-panel{
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.login .title{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.login .title h6{
+  color: #999999;
+}
+.login .login-action{
+  width: 80%;
+  margin: 6rem auto;
+  text-align: center;
+}
+.login .login-action button{
+  width: 70%;
+  background-color: #f7b348;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (min-width:768px){
+  .login{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .login .number-panel{
+    width: 50%;
+    margin: 3rem auto;
+
+  }
+
+  .login .title h6{
+      font-size: 16px;
+      font-weight: 200;
+  }
+}
+@media only screen and (min-width:1024px){
+  .login{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .login .number-panel{
+    width: 50%;
+    margin: 3rem auto;
+  }
+}
